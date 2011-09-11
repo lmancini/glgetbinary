@@ -1,0 +1,7 @@
+Simple program that uses the ARB_get_program_binary extension to retrieve the internal representation of an OpenGL GLSL shader.  This was mostly meant as an experiment to see what intermediate language GPU drivers compiled GLSL to.
+
+Note that while ARB_get_program_binary is core in OpenGL 4, it's still available as an extension on most OpenGL 3 implementations.
+
+Includes the Pez library by Philip Rideout.
+
+Requires GLEW >= 1.5.6, or compilation will fail complaining about undefined symbols from ARB_get_program_binary.
